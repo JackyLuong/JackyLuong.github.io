@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+html
+{
+    height: 100%;
+}
+body
+{
+    height: 100%;
+}
+nav
+{
+    font-family: 'Roboto', sans-serif;
+    opacity: 96%;
+}
+nav #lastName
+{
+    color: #3156cd;
+}
+nav #resumeButton
+{
+    background-color: #3156cd;
+    color:white;
+    border-radius: 3px;
+}
+nav #resumeButton:hover
+{
+    background-color: #3763f3;
+}
+hr
+{
+    color:black;
+    max-width: 100px;
+}
+#navbarNav
+{
+    float:right;
+}
+#intro
+{
+    height: 100%;
+    margin-top: 150px;
+    min-height: 1000px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#intro h1 
+{
+    font-size: 100px;
+}
+#intro h1 span
+{
+    color: #3156cd;
+}
+#intro h2 
+{
+    font-size: 50px;
+    color: #4D4D4D;
+}
+#intro #paraIntro
+{
+    max-width: 800px;
+    color: #696969;
+    font-size: 18px;
+}
+#intro #greetingImg
+{
+    width: 300px;
+}
+#intro #introButton
+{
+    background-color: #3156cd;
+    color: white;
+    font-size: 20px;
+}
+#intro #introButton:hover 
+{
+    background-color: #3763f3;
+}
+#about
+{
+    height: 100%;
+    margin-top: 150px;
+    min-height: 1500px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#about h1 
+{
+    font-size: 50px;
+    color:#696969;
+}
+#about span
+{
+    color: #3156cd;
+}
+#about .paraAbout
+{
+    max-width: 600px;
+    color: #696969;
+    font-size: 18px;
+}
+#about #aboutText
+{
+    box-shadow: 10px 10px 10px #c0c0c0;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 600px;
+    border-radius: 3px;
+}
+#about .listOfSkills
+{
+    display: flex;
+}
+#about #leftList
+{
+    color:#3156cd;
+    font-size: 16px;  
+}
+#about #leftList span
+{
+    color: #696969;
+    
+}
+#about #rightList
+{
+    color:#3156cd;
+    font-size: 16px;
+    margin-left: 50px;
+}
+#about #rightList span
+{
+    color: #696969;
+}
+#about #profileImg
+{
+    max-width: 600px;
+    padding-right: 10px;
+    border-radius: 3px;
+}
+#projects
+{
+    height: 100%;
+    margin-top: 150px;
+    min-height: 100%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+#projects h1
+{
+    color: #4D4D4D;
+    font-size: 50px;
+}
+#projects h1 span
+{
+    color: #3156cd;
+}
+#projects .projectContent
+{
+    margin-bottom: 30px;
+    display:flex;
+    align-items: center;
+}
+#projects .projectImgContainer
+{
+    margin-left:-100px;
+    background-color: #dddddd;
+    border-radius: 3px;
+}
+#projects .projectImg
+{
+    filter: grayscale(100%);
+    opacity: 0.6;
+    transition: 0.3s;
+    max-width: 420px;
+    border-radius: 3px;
+    z-index: -1;
+}
+#projects .projectImg:hover
+{
+    filter: none;
+    opacity: 1;
+}
+#projects .projectDesc
+{
+    position: relative;
+    background-color: #3156cd;
+    box-shadow: 3px 3px 3px #1b3075;
+    color:white;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    width: 550px;
+    height: 180px;
+    border-radius: 3px;
+    z-index: 1;
+}
+#projects #paraProjDesc
+{
+    color: #dcdcdc;
+    font-size: 18px;
+}
+#projects .linkIcons
+{
+    height: 30px;
+    width: auto;
+    opacity: 0.8;
+}
+#projects .linkIcons:hover
+{
+    opacity: 1;
+}
+#contact
+{
+    height: 100%;
+    margin-top: 300px;
+    min-height: 100%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+#contact h1 
+{
+    font-size: 100px;
+}
+#contact h1 span
+{
+    color: #3156cd;
+}
+#contact #paraContact
+{
+    max-width: 800px;
+    color: #696969;
+    margin:auto;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+#contact #contactButton
+{
+    background-color: #3156cd;
+    color: white;
+    font-size: 20px;
+}
+#contact #contactButton:hover
+{
+    background-color: #3763f3;
+}
